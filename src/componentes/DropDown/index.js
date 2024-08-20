@@ -2,7 +2,7 @@ import './DropDown.css'
 
 const DropDown = (props) => {
     return (
-        <div>
+        <div className='drop-down'>
             <label>
                 {props.label}
             </label>
