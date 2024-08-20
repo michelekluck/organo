@@ -6,7 +6,7 @@ const CampoTexto = (props) => {
             <label>
                 {props.label}
             </label>
-            <input placeholder={props.placeholder} />
+            <input id='placeholder-text' placeholder={props.placeholder} />
         </div>
     )
 }
